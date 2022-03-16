@@ -1,0 +1,72 @@
+#identify{
+    width: 500px;
+    height: 270px;
+    /* background-color: burlywood; */
+    border: 2px dashed #333;
+    margin: auto;
+    margin-top: 80px;
+}
+.i_topnav{
+    width: 100%;
+    height: 50px;
+    /* background-color: cadetblue; */
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #333;
+}
+.i_con{
+    width: 100%;
+    height: 100px;
+    /* background-color: coral; */
+}
+.i_connav{
+    width: 90%;
+    height: 40px;
+    /* background-color: darkcyan; */
+    margin: auto;
+    text-align: left;
+    line-height: 40px;
+    font-size: 17px;
+    color: #333;
+}
+.i_coninput{
+    width: 90%;
+    height: 50px;
+    /* background-color: darkcyan; */
+    margin: auto;
+}
+.i_coninput input{
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: 0px;
+    border-bottom: 2px solid #333;
+    font-size: 15px;
+}
+.i_btn{
+    width: 100%;
+    height: 50px;
+    /* background-color: darkgoldenrod; */
+    margin-top: 20px;
+}
+.i_btn1{
+    width: 200px;
+    height: 50px;
+    /* background-color: darkgray; */
+    float: left;
+    margin-left: 35px;
+}
+.i_bottomnav{
+    width: 100%;
+    height: 30px;
+    /* background-color: darkgray; */
+    margin-top: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: #333;
+}
+.i_bottomnav:hover{
+    color: dodgerblue;
+}

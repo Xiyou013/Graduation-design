@@ -1,0 +1,9 @@
+#admineditor{
+    width: 450px;
+    height: auto;
+    /* background-color: darkkhaki; */
+    margin: auto;
+    margin-top: 50px;
+    border: 2px dashed #333;
+    border-radius: 6px;
+}

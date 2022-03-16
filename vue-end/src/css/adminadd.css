@@ -1,0 +1,60 @@
+#adminadd{
+    width: 900px;
+    height: auto;
+    /* background-color: darkkhaki; */
+    margin: auto;
+    margin-top: 120px;
+    padding-bottom: 20px;
+    border: 2px dashed #333;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.adadd_top{
+    width: 100%;
+    height: 50px;
+    /* background-color: cornflowerblue; */
+    text-align: center;
+    line-height: 50px;
+    font-size: 17px;
+    color: #333;
+    float: left;
+    margin-top:20px;
+}
+.adadd{
+    width: 47%;
+    height: 70px;
+    /* background-color: darksalmon; */
+    /* border-bottom: 2px solid #333; */
+    margin: auto;
+    margin-top: 15px;
+    margin-left:17px;
+    float: left;
+}
+.adadd_left{
+    width: 18%;
+    height: 50px;
+    /* background-color: goldenrod; */
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+    color: #333;
+}
+.adadd_right{
+    width: 80%;
+    height: 50px;
+    /* background-color: greenyellow; */
+    float: right;
+}
+.sel{
+    width: 100%;
+}
+.adadd_jy{
+    /* background-color: brown; */
+    width: 100%;
+    height: 20px;
+    float: left;
+    text-align: center;
+    font-size: 13px;
+    color: #CC3333;
+}

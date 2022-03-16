@@ -1,0 +1,260 @@
+#newsadd{
+    width: 1105px;
+    height: auto;
+    background-color: #F1F3F4;
+    margin: auto;
+}
+.nadd_topnav{
+    width: 100%;
+    height: 70px;
+    /* background-color: goldenrod;    */
+}
+.nadd_con{
+    width: 100%;
+    height: auto;
+    /* background-color: greenyellow; */
+}
+.nadd_cn_top{
+    width: 100%;
+    height: 50px;
+    /* background-color: hotpink; */
+    /* text-align: center; */
+    
+}
+.nadd_cn_positive{
+    width: 100%;
+    height: 50px;
+}
+.newTitle{
+    line-height: 50px;
+    font-size: 14px;
+    color: #333;
+    padding-left: 15px;
+    font-weight: bold;
+}
+.nadd_cn_label{
+    width: 100%;
+    height: auto;
+    /* background-color: lightcoral; */
+    overflow: hidden;
+}
+.newLable{
+    padding: 10px;
+}
+.nadd_cnl_con{
+    width: auto;
+    height: 40px;
+    border: 1px solid #333;
+    border-radius: 3px;
+    margin: 5px 5px 5px 15px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
+    word-wrap: break-word;
+    word-break: normal;
+}
+.nadd_cnl_operation{
+    width: auto;
+    height: 40px;
+    /* background-color: darkkhaki; */
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.nadd_cn_from{
+    width: 100%;
+    height: 70px;
+    /* background-color: lightsalmon; */
+}
+.nadd_cnf_url{
+    width: auto;
+    height: 40px;
+    /* background-color: blueviolet; */
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+    text-align: left;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
+}
+
+.nadd_cnfu_left{
+    width: 70px;
+    height: 100%;
+    /* background-color: coral; */
+    float: left;
+    font-weight: bold;
+}
+.nadd_cnfu_right{
+    width: 75%;
+    height: 100%;
+    /* background-color: darkgray; */
+    float: left;
+}
+.nadd_cnf_date{
+    width: 20%;
+    height: 40px;
+    /* background-color: cadetblue; */
+    margin-top: 15px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    color: #333;
+}
+.nadd_cn_content{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    /* background-color: lightseagreen; */
+}
+.nadd_cnc_top{
+    width: 100%;
+    height: 50px;
+    /* background-color: lightskyblue; */
+    line-height: 50px;
+    font-size: 14px;
+    color: #333;
+}
+.nadd_cnc_con{
+    width: 94%;
+    height: auto;
+    /* background-color: lightsteelblue; */
+    margin: auto;
+}
+.editor{
+    width: 800px;
+    height: 450px;
+}
+.nadd_cn_link{
+    width: 100%;
+    height: 50px;
+    /* background-color: lightskyblue; */
+    line-height: 50px;
+    font-size: 14px;
+    color: #333;
+    margin-top: 20px;
+}
+.nadd_cnl_left{
+    width: 70px;
+    height: 100%;
+    /* background-color: darkgray; */
+    float: left;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.nadd_cnl_right{
+    width: 80%;
+    height: 100%;
+    /* background-color: darkkhaki; */
+    float: left;
+}
+.nadd_newsrel{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 30px;
+    /* background-color: darksalmon; */
+}
+/* .nadd_bottom{
+    padding-bottom: 30px;
+} */
+.nadd_nr_top{
+    width: 100%;
+    height: 50px;
+    /* background-color: darkseagreen; */
+}
+.nadd_nrt_left{
+    width: 20%;
+    height: 100%;
+    /* background-color: dodgerblue; */
+    float: left;
+    line-height: 50px;
+    font-size: 14px;
+    padding-left: 15px;
+    font-weight: bold;
+    color: #333;
+}
+.nadd_nrt_right{
+    width: 20%;
+    height: 100%;
+    /* background-color: dodgerblue; */
+    float: right;
+}
+
+.nadd_nr_con{
+    width: 300px;
+    height:auto;
+    margin: 15px 24px 15px 24px;
+    padding: 10px;
+    background-color:#fff;
+    border-radius:10px;
+    float: left;
+}
+.nadd_cpck_con_enterprise{
+    width: 460px;
+    height:auto;
+    margin: 15px 35px 15px 35px;
+    padding: 10px;
+    background-color:#fff;
+    border-radius:10px;
+    float: left;
+}
+.eadd_cpck_con_ename,.eadd_cpck_con_elrpeople,.eadd_cpck_con_esetdate,.eadd_cpck_con_ephone{
+    width: 325px;
+    height: auto;
+    margin: 0px 0px 10px 10px;
+    /* background-color:burlywood; */
+    float: right;
+    font-size: 14px;
+    line-height:35px;
+    text-align: center;
+}
+.eadd_cpck_con_eaddress{
+    width: 100%;
+    height:auto;
+    /* background-color:burlywood; */
+    float: left;
+    word-wrap: break-word;
+    word-break: normal;
+    text-align: justify;
+    font-size: 14px;
+    line-height:35px
+}
+.nadd_cpck_con_tu{
+    width: 120px;
+    height: 160px;
+    border: 1px dashed #d9d9d9;
+    float: left;
+}
+.nadd_cpck_con_name,.nadd_cpck_con_birthdate,.nadd_cpck_con_position{
+    width: 165px;
+    height: auto;
+    margin: 0px 0px 10px 10px;
+    /* background-color:burlywood; */
+    float: left;
+    font-size: 14px;
+    line-height:45px;
+    text-align: center;
+
+}
+.nadd_cpck_con_penterprise{
+    width: 100%;
+    height: auto;
+    margin: 10px 0px 0px 0px;
+    /* background-color:burlywood; */
+    float: right;
+    font-size: 14px;
+    word-wrap: break-word;
+    word-break: normal;
+    text-align: justify;
+    line-height:35px
+}
+.PagingToolbar{
+    width: auto;
+    /* background-color:burlywood; */
+    text-align: center;
+}

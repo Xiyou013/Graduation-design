@@ -1,0 +1,11 @@
+#bossdetails{
+    width: 1000px;
+    height: auto;
+    background-color: darksalmon;
+    margin: auto;
+}
+.badd_cb_right_text{
+    font-size:14px;
+    line-height: 35px;
+    border-bottom: 2px solid #333;
+}

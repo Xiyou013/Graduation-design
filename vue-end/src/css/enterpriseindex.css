@@ -1,0 +1,25 @@
+#index{
+    background-color: #fff;
+    padding: 20px;
+}
+
+.topseach{
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(248, 161, 161); */
+    margin: auto;
+    /* padding:20px 0px 0px 0px; */
+    /* overflow: hidden; */
+}
+.contentseach{
+    width: 1000px;
+    height: auto;
+    /* background-color: darkgoldenrod; */
+    margin: auto;
+}
+.pagination{
+    width: 42%;
+    height: auto;
+    /* background-color: darkgreen; */
+    margin: auto;
+}

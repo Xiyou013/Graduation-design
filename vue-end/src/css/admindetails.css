@@ -1,0 +1,74 @@
+#admindetails{
+    width: 450px;
+    height: auto;
+    /* background-color: darkkhaki; */
+    margin: auto;
+    margin-top: 120px;
+    padding-bottom: 30px;
+    border: 2px dashed #333;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+}
+.back{
+    width: 30px;
+    height: 30px;
+    /* background-color:cadetblue; */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.add_top{
+    width: 100%;
+    height: 50px;
+    /* background-color: cornflowerblue; */
+    text-align: center;
+    line-height: 50px;
+    font-size: 17px;
+    color: #333;
+    float: left;
+    margin-top:20px;
+}
+.admincon1{
+    width: 90%;
+    height: 40px;
+    /* background-color: darksalmon; */
+    border-bottom: 2px solid #333;
+    margin: auto;
+    margin-top: 15px;
+    margin-left:23px;
+    float: left;
+}
+/* .adadd_1{
+    border-bottom: 0px;
+} */
+.add_left{
+    width: 25%;
+    height: 50px;
+    /* background-color: goldenrod; */
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+/* .ad_r{
+    width: 75%;
+    text-align: left;
+    line-height: 50px;
+    font-size: 15px;
+    color: #333;
+    background-color: greenyellow;
+    float: right;
+} */
+.r1{
+    width: 75%;
+    text-align: left;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
+    /* background-color: greenyellow; */
+    float: right;
+}
