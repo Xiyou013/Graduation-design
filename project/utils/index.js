@@ -18,6 +18,15 @@ function showTime(val) {
     // console.log(msg)
     return msg;
 }
+//计算毫秒数
+function showMillisecondTime(val) {
+    // console.log('val:', val)
+    var hour = val.split(':')[0];
+    var min = val.split(':')[1];
+    var msg = (Number(hour * 3600) + Number(min * 60)) * 1000;
+    // console.log('msg:', msg)
+    return msg;
+}
 //不足两位数的补全格式为：0x
 function padaDate(value) {
     return value < 10 ? '0' + value : value;
@@ -26,4 +35,5 @@ function padaDate(value) {
 module.exports = {
     showDataTime,
     showTime,
+    showMillisecondTime,
 };

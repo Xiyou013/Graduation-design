@@ -93,6 +93,8 @@ import variableEnum from "@/utils/variableEnum.js";
 // import { Notify } from "vant";
 import NewsOne from "@/components/homeTabsPlans/newsOne.vue";
 import NewsTwo from "@/components/homeTabsPlans/newsTwo.vue";
+//每隔10分钟刷新获取热搜新闻的点击量
+const time = 600000;
 
 export default {
   name: "home",
@@ -134,12 +136,13 @@ export default {
 
     await this.getTopHeight();
     this.editNewsDataNum();
+    this.editNewsClick();
     this.refreshInterval = setInterval(() => {
       console.log("123456789");
       this.addNewsClick();
       this.editNewsClick();
       this.editNewsDataNum();
-    }, 10000);
+    }, time);
     const that = this;
     window.addEventListener("resize", function () {
       return (() => {

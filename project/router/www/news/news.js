@@ -112,7 +112,7 @@ NewsRegister.get('/www/addNewsClickNum/:id',
         console.log('/www/addNewsClickNum/:', ctx.params);
         var { id } = ctx.params;
         let _result = { message: "点击量新增失败,请重新尝试", type: 'error' };
-        var sql = `update kjwl_pc_basic_news set kjwl_n_onedata = kjwl_n_onedata + 1,kjwl_n_clickNum = kjwl_n_clickNum + 1 where kjwl_n_id = ?`;
+        var sql = `update kjwl_pc_basic_news set kjwl_n_onedata = kjwl_n_onedata + 1,kjwl_n_clickNum = kjwl_n_clickNum + 1,kjwl_n_hitSum = kjwl_n_hitSum + 1 where kjwl_n_id = ?`;
         var ndata = await ctx.db.query(sql, [id]);
         if (ndata) _result.message = '该新闻点击量新增成功', _result.type = 'success';
         if (_result && _result != {}) {
@@ -128,10 +128,14 @@ NewsRegister.get('/www/addNewsClick',
         var { id } = ctx.params;
         let _result = { message: "点击量新增失败,请重新尝试", type: 'error' };
         var ndata = await ctx.db.query(`select * from kjwl_pc_basic_news where kjwl_n_status = 1`);
-        const res = utilsIndex.showTime(new Date());
+        const res = utilsIndex.showMillisecondTime(utilsIndex.showTime(new Date()));
+        const startTime = utilsIndex.showMillisecondTime('00:00');
+        const endTime = utilsIndex.showMillisecondTime('00:10');
         console.log('res:', res);
+        console.log('startTime:', startTime);
+        console.log('endTime:', endTime);
         for (let i = 0; i < ndata.length; i++) {
-            if (res === '00:00' && ndata[i].kjwl_n_clickFlag === 1) {
+            if (res >= startTime && res <= endTime && ndata[i].kjwl_n_clickFlag === 1) {
                 for (let j = 7; j >= 1; j--) {
                     if (j === 1) {
                         // console.log('utils.dataNameList123:', j, utils.dataNameList[j]);
@@ -145,7 +149,7 @@ NewsRegister.get('/www/addNewsClick',
                     }
                 }
             } 
-            if(res !== '00:00'){
+            if(res > endTime){
                 var sql1 = `update kjwl_pc_basic_news set ${utils.dataNameList[1]} = ${ndata[i].kjwl_n_clickNum},kjwl_n_clickFlag = 1 where kjwl_n_id = ?`;
                 var ndata1 = await ctx.db.query(sql1, [ndata[i].kjwl_n_id]);
             }
